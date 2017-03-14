@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TRZXInvestors"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "TRZXInvestors."
 
   # This description is used to generate tags and improve search results.
@@ -143,6 +143,7 @@ TRZXInvestors
    s.dependency "Masonry"
    s.dependency "TRZXProjectScreening"
    s.dependency "TRZXProjectScreeningBusinessCategory"
-
+   s.dependency "TRZXInvestorDetail" # 投资人详情
+   s.dependency "TRZXInvestorDetailCategory" # 投资人详情组件
 
 end

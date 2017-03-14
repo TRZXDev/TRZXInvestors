@@ -1,0 +1,1 @@
+../../../TRZXInvestorDetail/TRZXInvestorDetail/TRZXInvestorDetail/Tool/TRZXInvestorDetailMacro.h

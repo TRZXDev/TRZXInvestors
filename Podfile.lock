@@ -25,8 +25,22 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - TRZXDIYRefresh (0.0.1):
     - MJRefresh
+  - TRZXInvestorDetail (0.0.6):
+    - Masonry
+    - MJExtension
+    - ReactiveCocoa (~> 2.5)
+    - SDWebImage
+    - TRZXKit
+    - TRZXNetwork
+    - YYText
+    - ZBCellConfig
+  - TRZXInvestorDetailCategory (0.0.1):
+    - CTMediator
   - TRZXKit (0.0.9)
   - TRZXNetwork (0.0.7):
     - AFNetworking
@@ -39,12 +53,16 @@ PODS:
   - TRZXProjectScreeningBusinessCategory (0.0.2):
     - CTMediator
   - YYCache (1.0.4)
+  - YYText (1.0.7)
+  - ZBCellConfig (0.0.1)
 
 DEPENDENCIES:
   - Masonry
   - MJExtension
   - ReactiveCocoa (~> 2.5)
   - TRZXDIYRefresh
+  - TRZXInvestorDetail
+  - TRZXInvestorDetailCategory
   - TRZXKit
   - TRZXNetwork
   - TRZXProjectScreening
@@ -57,13 +75,18 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TRZXDIYRefresh: a89e7cf1658ff7d57aad081c596c2a9cf137dcf2
+  TRZXInvestorDetail: 20854d68662fcc8e2788531dcc6d4d57a6409849
+  TRZXInvestorDetailCategory: 8ec1d81d8563ee0d6747da59686735c1760753a4
   TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
-  TRZXNetwork: 971adad8c503f4e1fa21a2a3cfa8b73a7e4f3a13
+  TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
   TRZXProjectScreening: 2c40b12e1c4cebcfadb448441fbf9260b50fb118
   TRZXProjectScreeningBusinessCategory: 3f7c61fe9d8ae6d6b071f013c119b7c8f96a8d43
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZBCellConfig: 81d13572960dbf03e5a09b70d813f6dceef7de0f
 
-PODFILE CHECKSUM: d99d8f72c35dd18c400dec9e109346e0740a53d4
+PODFILE CHECKSUM: 0fbfc3cb17a020b85598f293d43fbae2a45e6c97
 
 COCOAPODS: 1.2.0

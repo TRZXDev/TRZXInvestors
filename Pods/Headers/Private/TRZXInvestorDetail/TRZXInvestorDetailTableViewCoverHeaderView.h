@@ -1,0 +1,1 @@
+../../../TRZXInvestorDetail/TRZXInvestorDetail/TRZXInvestorDetail/View/TRZXInvestorDetailTableViewCoverHeaderView.h

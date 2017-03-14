@@ -12,7 +12,7 @@
 #import "TRZXKit.h"
 #import "TRZXDIYRefresh.h"
 #import <TRZXProjectScreeningBusinessCategory/CTMediator+TRZXProjectScreening.h>
-
+#import <TRZXInvestorDetailCategory/CTMediator+TRZXInvestorDetailCategory.h>
 @interface TRZXInvestorsViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *hotProjectTableView;
 @property (strong, nonatomic) TRZXInvestorsViewModel *projectViewModel;
@@ -127,7 +127,10 @@
 {
     //行被选中后，自动变回反选状态的方法
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    TRZXInvestors *model = [_projectViewModel.list objectAtIndex:indexPath.row];
 
+    UIViewController *projectDetailVC = [[CTMediator sharedInstance] investorDetailViewController:model.mid];
+    [self.navigationController pushViewController:projectDetailVC animated:true];
 
 
 }

@@ -13,6 +13,9 @@ target 'TRZXInvestors' do
         pod 'Masonry'
         pod 'TRZXProjectScreening' # 项目筛选
         pod 'TRZXProjectScreeningBusinessCategory' # 项目筛选跳转组件
+        pod 'TRZXInvestorDetail' # 投资人详情
+        pod 'TRZXInvestorDetailCategory' # 投资人详情组件
+
   # Pods for TRZXInvestors
 
 end
